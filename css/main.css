@@ -1,0 +1,25 @@
+html {
+  font-family: "Noto Serif", serif;
+}
+
+header, footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+input, textarea, select {
+  border: 2px solid #6e8c62;
+}
+
+.footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
+  text-align: center;
+}
+
+@media only screen and (min-width: 60em) {

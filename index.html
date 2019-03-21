@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Volunteer form</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+  <section class="register">
+    <div class="">
+      <header>
+        <div class="header island-1-2">
+          <h1 class="peta push-1-2">Apply to be a tree planter</h1>
+          <p class="mega push-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+        </div>
+      </header>
+      <form class="push-0 gutter" method="POST" action="https://formspree.io/nguy0779@algonquinlive.com">
+
+        <div>
+          <h2 class="giga pad-t-2">Personal details</h2>
+          <div class="grid">
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <label for="name">Full name</label>
+              <input id="name" name="name" required>
+              <p class="normal italic micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+            </div>
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <label for="callname">What should we call you?</label>
+              <input id="callname" required>
+              <p class="italic micro">What all your friends call you, e.g. “Liz”.</p>
+            </div>
+            <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <label for="date">Date of birth</label>
+              <input id="date" type="date">
+            </div>
+            <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <label for="subject">T-shirt size</label>
+              <select id="subject" name="_Volunteer Sign-up">
+                <optgroup label="Select a t-shirt size">
+                  <option>Fitted: XS</option>
+                  <option>Fitted: S</option>
+                  <option>Fitted: M</option>
+                  <option>Fitted: L</option>
+                  <option>Fitted: XL</option>
+                  <option>Straight-cut: XS</option>
+                  <option>Straight-cut: S</option>
+                  <option>Straight-cut: M</option>
+                  <option>Straight-cut: L</option>
+                  <option>Straight-cut: XL</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <label for="email">Email</label>
+              <input id="email" type="email" required>
+            </div>
+            <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <label for="tel">Phone number (optional)</label>
+              <input id="tel" type="tel" required>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="italic giga push">Address</h2>
+          <div class="grid">
+            <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <label for="street">Street address</label>
+              <input id="street" type="text" required>
+            </div>
+            <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <label for="city">City</label>
+              <input id="city" type="text" required>
+            </div>
+            <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <label for="subject">Province</label>
+              <select id="province" name="province">
+                <optgroup label="Select a province">
+
+                  <option>Alberta</option>
+                  <option>British Columbia</option>
+                  <option>Manitoba</option>
+                  <option>New Brunswick</option>
+                  <option>Newfoundland & Labrador</option>
+                  <option>Northwest Territories</option>
+                  <option>Nova Scotia</option>
+                  <option>Nunavut</option>
+                  <option>Ontario</option>
+                  <option>Prince Edward Island</option>
+                  <option>Québec</option>
+                  <option>Saskatchewan</option>
+                  <option>Yukon</option>
+              </select>
+            </div>
+            <div class="push unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
+              <label for="code">Postal code</label>
+              <input type="text" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" id="code" required>
+            </div>
+          </div>
+        </div>
+
+        <div class="push">
+          <h2 class="italic giga push">What activities are you interested in helping with?</h2>
+          <input id="dig" type="checkbox" name="activities">
+          <label for="dig">Digging holes</label>
+          <input id="dirt" type="checkbox" name="activities">
+          <label for="dirt">Getting dirty</label>
+          <input id="lift" type="checkbox" name="activities">
+          <label for="lift">Lifting heavy objects</label>
+          <input id="drive" type="checkbox" name="activities">
+          <label for="drive">Driving people</label>
+          <input id="tree" type="checkbox" name="activities">
+          <label for="tree">Transporting trees</label>
+          <input id="take" type="checkbox" name="activities">
+          <label for="take">Taking photos</label>
+          <input id="online" type="checkbox" name="activities">
+          <label for="online">Online publishing</label>
+          <input id="manage" type="checkbox" name="activities">
+          <label for="manage">Managing people</label>
+        </div>
+
+        <div class="push">
+          <h2 class="italic giga push">Do you have any experience with the following?</h2>
+          <input id="shovel" type="checkbox" name="activities">
+          <label for="shovel">Shovels</label>
+          <input id="held" type="checkbox" name="activities">
+          <label for="held">Hand-held GPS</label>
+          <input id="blog" type="checkbox" name="activities">
+          <label for="blog">Writing & blogging</label>
+          <input id="tography" type="checkbox" name="activities">
+          <label for="tography">Photography</label>
+          <input id="hill" type="checkbox" name="activities">
+          <label for="hill">Trail & hill climbing</label>
+          <input id="craft" type="checkbox" name="activities">
+          <label for="craft">Bush craft</label>
+          <input id="atv" type="checkbox" name="activities">
+          <label for="atv">ATVs</label>
+          <input id="iden" type="checkbox" name="activities">
+          <label for="iden">Plant identification</label>
+          <input id="event" type="checkbox" name="activities">
+          <label for="event">Special event planning</label>
+          <input id="peak" type="checkbox" name="activities">
+          <label for="peak">Speaking to groups</label>
+        </div>
+
+        <fieldset>
+          <legend class="giga">Do you have a valid driver’s license?</legend>
+          <input id="yes" type="radio" name="license">
+          <label for="yes">Yes</label>
+
+          <input id="no" type="radio" name="license">
+          <label for="no">No</label>
+        </fieldset>
+
+        <fieldset>
+          <legend class="giga">Do you have a pick-up truck you’d be willing to use?</legend>
+          <input id="yeah" type="radio" name="truck">
+          <label for="yeah">Yes</label>
+
+          <input id="na" type="radio" name="truck">
+          <label for="na">No</label>
+        </fieldset>
+
+        <fieldset>
+          <legend class="giga">Do you have up-to-date first-aid certification?</legend>
+          <input id="yas" type="radio" name="aid">
+          <label for="yas">Yes</label>
+
+          <input id="ne" type="radio" name="aid">
+          <label for="ne">No</label>
+        </fieldset>
+
+        <div class="push">
+          <label for="info" class="giga">Please let us know any comments or questions you may have.</label>
+          <textarea id="details" name="details" rows="8" cols="80" required></textarea>
+        </div>
+
+        <div class="push">
+          <button class="btn mega" type="submit">Apply</button>
+        </div>
+
+      </form>
+      <div class="footer">
+        <p class="island">© Tree Hugger International Organization</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
