@@ -27,4 +27,26 @@ input, textarea, select {
   border-color: #6e8c62;
 }
 
-@media only screen and (min-width: 60em) {
+hr {
+  border: .5px solid #70ad55;
+}
+
+.one {
+  display: block;
+}
+
+header p {
+  max-width: 36em;
+}
+
+fieldset {
+  border: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .callyou, .tshirt, .phone, .citi, .postal {
+    padding-left: 1em;
+  }
+
+}
